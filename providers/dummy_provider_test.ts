@@ -1,4 +1,4 @@
-import { Log } from "../test_helpers/log.ts";
+import "../test_helpers/log.ts";
 import { Asserts } from "../dev_deps.ts";
 import { DummyProvider } from "./dummy_provider.ts";
 

@@ -4,6 +4,7 @@
   "https://deno.land/std@0.156.0/bytes/equals.ts": "3c3558c3ae85526f84510aa2b48ab2ad7bdd899e2e0f5b7a8ffc85acb3a6043a",
   "https://deno.land/std@0.156.0/bytes/mod.ts": "763f97d33051cc3f28af1a688dfe2830841192a9fea0cbaa55f927b49d49d0bf",
   "https://deno.land/std@0.156.0/encoding/base64.ts": "c57868ca7fa2fbe919f57f88a623ad34e3d970d675bdc1ff3a9d02bba7409db2",
+  "https://deno.land/std@0.156.0/encoding/hex.ts": "4cc5324417cbb4ac9b828453d35aed45b9cc29506fad658f1f138d981ae33795",
   "https://deno.land/std@0.156.0/fmt/colors.ts": "ff7dc9c9f33a72bd48bc24b21bbc1b4545d8494a431f17894dbc5fe92a938fc4",
   "https://deno.land/std@0.156.0/fs/exists.ts": "3661a679d9018338df5df7cd9fc7cd918f5e447e7304a5391f849a893ce24107",
   "https://deno.land/std@0.156.0/io/buffer.ts": "fae02290f52301c4e0188670e730cd902f9307fb732d79c4aa14ebdc82497289",
