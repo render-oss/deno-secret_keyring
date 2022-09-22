@@ -22,7 +22,7 @@ export class DummyProvider extends BaseProvider {
     private readonly args: DummyProviderArgs,
   ) {
     super(args);
-    this.logger.warning(`Platform provider ${this.constructor.name} stores secrets locally and isn't secure. This is generally a fallback for when your platform lacks a better option. Contributions welcome! https://github.com/renderinc/deno-secret_keyring`);
+    this.logger.warning(`Platform provider ${this.constructor.name} stores secrets locally and isn't secure. This is generally a fallback for when your platform lacks a better option. Contributions welcome! https://github.com/render-oss/deno-secret_keyring`);
   }
 
   private async readFile(): Promise<Record<string, string>> {
