@@ -1,0 +1,21 @@
+name: CI
+on:
+  push: {}
+
+jobs:
+  testing:
+    name: deno test
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Prep dev env
+        run: make dev-deps
+      - name: Run tests
+        run: make test
